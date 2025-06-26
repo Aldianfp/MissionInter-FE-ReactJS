@@ -1,4 +1,5 @@
 import React from "react";
+import CRUD from "../molecules/CRUD";
 import cardSatu from "../../assets/image/card01.jpg";
 import avaSatu from "../../assets/image/ava01.png";
 import cardDua from "../../assets/image/card02.jpg";
@@ -20,6 +21,7 @@ import cardSembilan from "../../assets/image/card09.jpg";
 export default function Collection() {
   return (
     <>
+      <CRUD />
       <section class="py-10 px-4 sm:px-6 max-w-7xl mx-auto">
         <header class="mb-6">
           <h2 class="text-3xl font-bold poppins-semibold">
